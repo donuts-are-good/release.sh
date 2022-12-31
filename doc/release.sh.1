@@ -1,0 +1,33 @@
+.TH release.sh 1 "January 1, 2021" "1.0" "release.sh man page"
+.SH NAME
+release.sh \- build cross-platform binaries for a Go project
+.SH SYNOPSIS
+release.sh [OPTION]...
+.SH DESCRIPTION
+release.sh is a bash script that builds cross-platform binaries for a Go project. It takes two optional arguments:
+
+--name BINARY_NAME
+    Set the name of the binary. If not specified, the default is "release.sh".
+
+--version VERSION
+    Set the version of the binary. If not specified, the default is "1.0".
+
+release.sh builds four binaries: one for Windows on AMD64, one for macOS on Intel, one for macOS on Apple Silicon, and one for Linux on AMD64. The binaries are named in the format BINARY_NAME-VERSION-GOOS-GOARCH.
+
+.SH EXAMPLES
+To build a binary called "myapp" with version "1.2.3":
+
+./release.sh --name "myapp" --version "1.2.3"
+
+To display the man page for release.sh:
+
+./release.sh --help
+
+.SH SEE ALSO
+go(1)
+.SH AUTHOR
+donuts-are-good
+.SH COPYRIGHT
+MIT License donuts-are-good
+.SH LICENSE
+MIT License
