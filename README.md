@@ -30,7 +30,7 @@ To view the man page for release.sh, run the following command:
 
 ## 📜 License
 
-Notes is licensed under the [MIT](https://opensource.org/licenses/MIT) software license. 
+This app is licensed under the [MIT](https://opensource.org/licenses/MIT) software license. 
 
 ## 🤝 Contributing
 
