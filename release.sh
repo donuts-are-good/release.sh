@@ -63,7 +63,7 @@ for os in "${os_array[@]}"; do
     build_dir="$output_dir/$GOOS/$GOARCH"
     mkdir -p "$build_dir"
     output_file="$build_dir/$binary_name"
-    if go build -o "$output_file" . > /dev/null 2>&1; then
+    if go build -ldflags="-w -s" -o "$output_file" . > /dev/null 2>&1; then
       echo "pass - $GOOS - $GOARCH"
     else
       echo "fail - $GOOS - $GOARCH"
