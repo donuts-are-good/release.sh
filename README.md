@@ -41,12 +41,6 @@ Release.sh is welcoming contributions to the project! If you have an idea for a 
 3.  Make your changes and commit them to your branch
 4.  Open a pull request from your branch to the `master` branch of the repository
 
-## 💰 Donate
-
-If you would like to support the development of this project, you can donate to the following addresses:
-
--   Bitcoin: bc1qg72tguntckez8qy2xy4rqvksfn3qwt2an8df2n
--   Monero: 42eCCGcwz5veoys3Hx4kEDQB2BXBWimo9fk3djZWnQHSSfnyY2uSf5iL9BBJR5EnM7PeHRMFJD5BD6TRYqaTpGp2QnsQNgC
 
 Thank you for your support!
 
