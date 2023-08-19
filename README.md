@@ -16,7 +16,7 @@ To use release.sh, simply run it from the command line with the `--name` and `--
 
 `./release.sh --name "myapp" --version "1.0.0"`
 
-This will build your Go project for the four target platforms and output the resulting binaries to the current directory with the specified names.
+This will build your Go project for the available targets and output the resulting binaries to the /BUILDS/ directory with the specified names.
 
 ## 🔧 Installation
 
