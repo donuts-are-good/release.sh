@@ -57,10 +57,7 @@ for os_arch in "${os_arch_array[@]}"; do
   export GOARCH=$arch
 
   # build and check
-  binary_name="$name-$version-$GOOS-$GOARCH"
-  if [[ "$GOOS" == "windows" ]]; then
-    binary_name="$binary_name.exe"
-  fi
+  binary_name="$name-$version-$GOOS-$GOARCH$(go env GOEXE)"
   build_dir="$output_dir/$GOOS/$GOARCH"
   mkdir -p "$build_dir"
   output_file="$build_dir/$binary_name"
